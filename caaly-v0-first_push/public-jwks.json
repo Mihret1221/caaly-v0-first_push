@@ -1,0 +1,12 @@
+{
+  "keys": [
+    {
+      "kty": "RSA",
+      "n": "tdqC0dPdJrIkhXaFZTH2h6QlfprafLlVcH-hasX9TCYxERrOCT0TuG_eMq_RraLD8t460yV1U2b_5ikvq3C5NeR0hhtcW4h1kqIjIEArKlXh7aqZdQev_jD_f21gwTgYCN-tbgeqz76FAS6O99ZsF16lg2xTTDQ0Isq_lzObWjlWU87SZOiYO1a-emXwa3JVdVkTTAiBlK8kuPLftAm5v6hep7YxLM0Zx_kVuQ8MF0XRrl_28yI2b97_4Jd_YaSd37EWYkfF6QIYHDtjBficA9liGo-E0y2kEvLQiNIrV-Vqm8a_a3km82JWQncegJ6dhiHY8ZWrXbv1urpNZIuH2Q",
+      "e": "AQAB",
+      "kid": "fayda-key-v1",
+      "use": "sig",
+      "alg": "RS256"
+    }
+  ]
+}
