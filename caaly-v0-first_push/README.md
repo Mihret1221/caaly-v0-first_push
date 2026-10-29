@@ -1,3 +1,4 @@
+
 # Cabit Backend
 
 Cabit Backend is a TypeScript/Express API for a QR-based transport and fare management system. It powers user registration and authentication, QR-driven trip lifecycle management, KYC verification, payment initiation, and administrative controls for a cab or ride service.
@@ -37,47 +38,47 @@ This backend supports the core flow of a ride service:
 
 ```text
 src/
-  config/
-    data-source.ts
-  controllers/
-    admin.controller.ts
-    auth.controller.ts
-    kyc.controller.ts
-    payment.controller.ts
-    qr.controller.ts
-    trip.controller.ts
-    user.controller.ts
-  helpers/
-    buildFaydaAuthorizationUrl.ts
-    generate_keys.ts
-    validator.ts
-  middleware/
-    auth.middleware.ts
-  models/
-    active_token.model.ts
-    admins.model.ts
-    kyc_session.model.ts
-    login_attempts.model.ts
-    otp.model.ts
-    payments.model.ts
-    qr_codes.model.ts
-    settings.model.ts
-    trips.model.ts
-    users.model.ts
-  routes/
-    admin.routes.ts
-    auth.routes.ts
-    kyc.routes.ts
-    payment.routes.ts
-    qr.routes.ts
-    trip.routes.ts
-    user.routes.ts
-  services/
-    cleanup.service.ts
-    geezsms.service.ts
-    payment.service.ts
-  utils/
-    jwt.ts
+  config/
+    data-source.ts
+  controllers/
+    admin.controller.ts
+    auth.controller.ts
+    kyc.controller.ts
+    payment.controller.ts
+    qr.controller.ts
+    trip.controller.ts
+    user.controller.ts
+  helpers/
+    buildFaydaAuthorizationUrl.ts
+    generate_keys.ts
+    validator.ts
+  middleware/
+    auth.middleware.ts
+  models/
+    active_token.model.ts
+    admins.model.ts
+    kyc_session.model.ts
+    login_attempts.model.ts
+    otp.model.ts
+    payments.model.ts
+    qr_codes.model.ts
+    settings.model.ts
+    trips.model.ts
+    users.model.ts
+  routes/
+    admin.routes.ts
+    auth.routes.ts
+    kyc.routes.ts
+    payment.routes.ts
+    qr.routes.ts
+    trip.routes.ts
+    user.routes.ts
+  services/
+    cleanup.service.ts
+    geezsms.service.ts
+    payment.service.ts
+  utils/
+    jwt.ts
 ```
 
 ## Core Features
@@ -284,3 +285,4 @@ This project is currently licensed under `ISC` as defined in `package.json`.
 ## Contact / Maintainer
 
 This repository does not currently define a maintainer in the package metadata. Update the author field in `package.json` and add project ownership details if needed.
+
